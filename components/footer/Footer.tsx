@@ -22,8 +22,8 @@ export default function Footer() {
                         <Box>
                             <Heading fontSize={"30px"}>Strategic Partners</Heading>
                             <Stack mt={"25px"} gap={"15px"} direction={{base:"column", lg:"row"}}>
-                                <Image height={"50px"} width="min" src="images/PanacloudLogo.png" />
-                                <Image height={"50px"} width="min" src="images/SaylaniLogo.png" />
+                                <Image height={"50px"} width="min" src="images/PanacloudLogo.png" alt="Partner" />
+                                <Image height={"50px"} width="min" src="images/SaylaniLogo.png" alt="Partner" />
                             </Stack>
                         </Box>
                         <Text fontSize={'sm'}>

@@ -43,7 +43,7 @@ export default function TopContainer() {
                         <Flex flex={1} alignItems={"end"} justify={{base:"center", lg:"end"}}>
                             <Image
                                 // sizes='full'
-                                src='images/Banner.png' />
+                                src='images/Banner.png' alt="President" />
                         </Flex>
                     </Box>
                 </Stack>

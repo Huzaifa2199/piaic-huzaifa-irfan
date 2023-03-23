@@ -10,7 +10,7 @@ export default function ImageTwo() {
                     <Box w={{base:"100%", lg:"55%"}}>
                         <Image
                             // sizes='full'
-                            src='images/Second-meeting.jpg' />
+                            src='images/Second-meeting.jpg' alt="Meeting with Chief Secretary Sindh" />
                     </Box>
                     <Box w={{base:"100%", lg:"45%"}} pl={{lg:"25px"}} mb={{base:"20px", lg:"0px"}} textColor={"#152D35"}>
                         <Heading fontSize={"40px"} color={"teal"}>

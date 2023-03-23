@@ -18,7 +18,7 @@ export default function ImageOne() {
                     <Box w={{base:"100%", lg:"55%"}}>
                         <Image
                             // sizes='full'
-                            src='images/President-meeting.jpg' />
+                            src='images/President-meeting.jpg' alt="First official PIAIC meeting" />
                     </Box>
                 </Stack>
             </Container>

@@ -17,7 +17,7 @@ export default function ImageThree() {
                     <Box w={{base:"100%", lg:"55%"}}>
                         <Image
                             // sizes='full'
-                            src='images/Launching-site.jpg' />
+                            src='images/Launching-site.jpg' alt="President launching the PIAIC website" />
                     </Box>
                 </Stack>
             </Container>
