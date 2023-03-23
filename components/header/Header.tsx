@@ -24,7 +24,7 @@ export default function Header() {
           {/* Right box */}
           <Box>
             <HStack>
-              <Hide below="md">
+              <Show breakpoint='(min-width: 769px)'>
                 <List>
                   <HStack spacing={"30px"} mr={"35px"} fontWeight={"bold"} textColor={"#152D35"}>
                     <ListItem textColor={'teal'}>Home</ListItem>
@@ -42,7 +42,7 @@ export default function Header() {
                   colorScheme={"teal"}
                   variant={"solid"}>Apply Now
                 </Button>
-              </Hide>
+              </Show>
 
               <Show below="md">
                 <Burger />
