@@ -8,7 +8,7 @@ import { Blockchainicon } from '@/app/icons/blockchainicon'
 
 export default function Programs() {
     return (
-        <Box px={"10px"} pt={"100px"} pb={"50px"}>
+        <Box id='programs' px={"10px"} pt={"100px"} pb={"50px"}>
             <Container textAlign={"center"} justifyItems={"center"} maxW={800} textColor={"#152D35"}>
                 <Heading fontSize={"40px"} color={"teal"}>
                     Offered Programs
@@ -27,10 +27,9 @@ export default function Programs() {
                         <Box mb={"20px"} ><Icon as={Aiicon} /></Box>
                         <Heading mb={"25px"} color={"teal"} size='md'>Artificial Intelligence</Heading>
                         <Text mb={"25px"} >A one year AI program designed for absolute beginenrs. Getting Pakistan ready for the new era of computing enabled by the rise of AI.</Text>
-                        <Link fontSize={"17px"} fontWeight={"medium"}
+                        <Link href={"https://www.piaic.org/"} fontSize={"17px"} fontWeight={"medium"}
                             color={"teal"}
                             target={"_blank"}
-                            href={"#"}
                         >Learn More.. </Link>
                     </Box>
 
@@ -41,9 +40,8 @@ export default function Programs() {
                         <Box mb={"20px"} ><Icon as={Cloudnativeicon} /></Box>
                         <Heading mb={"25px"} size='md'>Cloud Native Web</Heading>
                         <Text mb={"25px"} >A one year Cloud Native and Mobile Web computing program designed for absolute beginenrs. Getting Pakistan ready for the new era of microservices and multi-cloud native computing.</Text>
-                        <Link fontSize={"17px"} fontWeight={"medium"}
+                        <Link href={"https://www.piaic.org/"} fontSize={"17px"} fontWeight={"medium"}
                             target={"_blank"}
-                            href={"#"}
                         >Learn More.. </Link>
                     </Box>
 
@@ -54,10 +52,9 @@ export default function Programs() {
                         <Box mb={"20px"} ><Icon as={Blockchainicon} /></Box>
                         <Heading mb={"25px"} color={"teal"} size='md'>Blockchain Specialist</Heading>
                         <Text mb={"25px"} >A one year Blockchain specialist program designed for absolute beginenrs. Getting Pakistan ready for the new era of Blockchain, Fintech and Smart Contracts.</Text>
-                        <Link fontSize={"17px"} fontWeight={"medium"}
+                        <Link href={"https://www.piaic.org/"} fontSize={"17px"} fontWeight={"medium"}
                             color={"teal"}
                             target={"_blank"}
-                            href={"#"}
                         >Learn More.. </Link>
                     </Box>
 
@@ -68,10 +65,9 @@ export default function Programs() {
                         <Box mb={"20px"} ><Icon as={Metaverse} /></Box>
                         <Heading mb={"25px"} color={"teal"} size='md'>Metaverse and Web 3.0</Heading>
                         <Text mb={"25px"} >A one year Metaverse and Web 3.0 program designed for absolute beginenrs. Getting Pakistan ready for the new era of computing enabled by the rise of Web 3.0.</Text>
-                        <Link fontSize={"17px"} fontWeight={"medium"}
+                        <Link href={"https://www.piaic.org/"} fontSize={"17px"} fontWeight={"medium"}
                             color={"teal"}
                             target={"_blank"}
-                            href={"#"}
                         >Learn More.. </Link>
                     </Box>
                 </SimpleGrid>

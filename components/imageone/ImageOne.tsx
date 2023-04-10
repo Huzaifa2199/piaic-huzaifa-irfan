@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function ImageOne() {
     return (
-        <Box pt={"50px"} pb={{base:"40px", lg:"75px"}} mx={"20px"}>
+        <Box id='about' pt={"50px"} pb={{base:"40px", lg:"75px"}} mx={"20px"}>
             <Container maxW={1200}>
                 <Stack direction={{base:"column", lg:"row"}} alignItems={"center"}>
                     <Box w={{base:"100%", lg:"45%"}} pr={{lg:"25px"}} mb={{base:"20px", lg:"0px"}} textColor={"#152D35"}>

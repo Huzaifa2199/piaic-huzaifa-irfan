@@ -1,5 +1,6 @@
 "use client"
 import { Box, Button, Container, Flex, Heading, Stack, Text } from '@chakra-ui/react'
+import Link from 'next/link'
 import React from 'react'
 
 export default function UltimateGoal() {
@@ -34,18 +35,20 @@ export default function UltimateGoal() {
                             </Box>
                         </Stack>
                         <Flex justify={{ base: "start", lg: "end" }}>
-                            <Button
-                                fontWeight={"bold"}
-                                textColor={"#152D35"}
-                                mt={"10px"}
-                                mb={{base:"20px", lg:"0px"}}
-                                boxShadow={'0px 1px 25px -5px rgb(0 128 128 / 15%), 0 10px 10px -5px rgb(0 128 128 / 15%)'}
-                                _hover={{ bg: 'white', }}
-                                _focus={{ bg: 'teal.100', }}
-                                width={"225px"}
-                                variant={"solid"}>
-                                Offered Programs
-                            </Button>
+                            <a href='#programs'>
+                                <Button
+                                    fontWeight={"bold"}
+                                    textColor={"#152D35"}
+                                    mt={"10px"}
+                                    mb={{ base: "20px", lg: "0px" }}
+                                    boxShadow={'0px 1px 25px -5px rgb(0 128 128 / 15%), 0 10px 10px -5px rgb(0 128 128 / 15%)'}
+                                    _hover={{ bg: 'white', }}
+                                    _focus={{ bg: 'teal.100', }}
+                                    width={"225px"}
+                                    variant={"solid"}>
+                                    Offered Programs
+                                </Button>
+                            </a>
                         </Flex>
                     </Box>
                 </Stack>
